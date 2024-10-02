@@ -1,0 +1,3 @@
+RewriteEngine On
+
+Redirect /click.index.php https://www.anandsweets.in
