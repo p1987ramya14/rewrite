@@ -28,6 +28,6 @@ if (isset($_GET['referrer'])) {
 }
 
 // Default fallback if no singular_click_id is provided or there's an issue
-header("Location: https://www.anandsweets.in");
+header("Location: https://www.anandsweets.in/collections/barfi-sweets");
 exit();
 ?>
