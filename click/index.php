@@ -13,7 +13,7 @@ if (isset($_GET['referrer'])) {
         $singular_click_id = $params['singular_click_id'];
 
         // Define the final URL and append the singular_click_id
-        $finalUrl = "https://www.anandsweets.in/?referrer=singular_click_id=" . urlencode($singular_click_id);
+        $finalUrl = "https://www.anandsweets.in/collections/barfi-sweets/?referrer=singular_click_id=" . urlencode($singular_click_id);
 
         // Perform the redirection to the final URL
         header("Location: " . $finalUrl);
